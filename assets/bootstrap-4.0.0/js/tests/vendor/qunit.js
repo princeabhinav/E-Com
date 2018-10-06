@@ -772,7 +772,7 @@
 
   		separator: function separator() {
   			if (this.multiline) {
-  				return this.HTML ? "<br />" : "\n";
+  				return this.HTML ? "<br>" : "\n";
   			} else {
   				return this.HTML ? "&#160;" : " ";
   			}
@@ -3564,7 +3564,7 @@
   			result.id = "qunit-testresult";
   			result.className = "result";
   			tests.parentNode.insertBefore(result, tests);
-  			result.innerHTML = "<div id=\"qunit-testresult-display\">Running...<br />&#160;</div>" + "<div id=\"qunit-testresult-controls\"></div>" + "<div class=\"clearfix\"></div>";
+  			result.innerHTML = "<div id=\"qunit-testresult-display\">Running...<br>&#160;</div>" + "<div id=\"qunit-testresult-controls\"></div>" + "<div class=\"clearfix\"></div>";
   			controls = id("qunit-testresult-controls");
   		}
 
@@ -3678,7 +3678,7 @@
   		    tests = id("qunit-tests"),
   		    abortButton = id("qunit-abort-tests-button"),
   		    totalTests = stats.passedTests + stats.skippedTests + stats.todoTests + stats.failedTests,
-  		    html = [totalTests, " tests completed in ", details.runtime, " milliseconds, with ", stats.failedTests, " failed, ", stats.skippedTests, " skipped, and ", stats.todoTests, " todo.<br />", "<span class='passed'>", details.passed, "</span> assertions of <span class='total'>", details.total, "</span> passed, <span class='failed'>", details.failed, "</span> failed."].join(""),
+  		    html = [totalTests, " tests completed in ", details.runtime, " milliseconds, with ", stats.failedTests, " failed, ", stats.skippedTests, " skipped, and ", stats.todoTests, " todo.<br>", "<span class='passed'>", details.passed, "</span> assertions of <span class='total'>", details.total, "</span> passed, <span class='failed'>", details.failed, "</span> failed."].join(""),
   		    test,
   		    assertLi,
   		    assertList;
@@ -3754,7 +3754,7 @@
   		if (running) {
   			bad = QUnit.config.reorder && details.previousFailure;
 
-  			running.innerHTML = [bad ? "Rerunning previously failed test: <br />" : "Running: <br />", getNameHtml(details.name, details.module)].join("");
+  			running.innerHTML = [bad ? "Rerunning previously failed test: <br>" : "Running: <br>", getNameHtml(details.name, details.module)].join("");
   		}
   	});
 
