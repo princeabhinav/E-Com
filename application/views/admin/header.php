@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>E-com</title>
 
     <!-- Bootstrap Core CSS -->
          <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
