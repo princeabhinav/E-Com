@@ -18,8 +18,6 @@ Installation
 
 The e-com repositery should be cloned and then xampp apache server should be started and then open localhost on your browser.
 
-*******
-
 Requirements
 *********
 
