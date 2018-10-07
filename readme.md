@@ -7,19 +7,19 @@ The second navbar that is items is for adding items. Here items can be added wit
 
 
 ## Admin Login
-***************
+
 
 * Email address- admin@gmail.com
 * Password - 123456 
 
 
 ## Installation
-************
+
 
 The e-com repositery should be cloned and then xampp apache server should be started and then open localhost on your browser.
 
 ## Requirements
-*********
+
 
  * XAMPP
  * Code Igniter
