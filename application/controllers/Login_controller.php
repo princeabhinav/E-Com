@@ -35,11 +35,10 @@ class Login_controller extends CI_Controller {
 						$pass = $this->input->post('Password');
 						$this->load->model('login_model');
 						$result = $this->login_model->admin_login($name,$pass);
-					    echo '<script>console.log("Your stuff here")</script>';
 						if($result){
 							$id=$result->id; 
 							$this->session->set_userdata('id',$id);
-							return redirect('./admin_controller');
+							return redirect('admin_controller');
 						}else{
 							$this->load->library('session');
 							
