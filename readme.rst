@@ -24,5 +24,5 @@ Requirements
  * XAMPP
  * Code Igniter
 
-***************
+
 
