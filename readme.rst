@@ -8,10 +8,10 @@ The second navbar that is items is for adding items. Here items can be added wit
 
 Admin Login
 ***************
-<ul>
-<li> Email address- admin@gmail.com</li>
-<li> Password - 123456 </li>
-</ul>
+
+* Email address- admin@gmail.com
+* Password - 123456 
+
 
 Installation
 ************
