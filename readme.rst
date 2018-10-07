@@ -23,8 +23,8 @@ The e-com repositery should be cloned and then xampp apache server should be sta
 Requirements
 *********
 
--  `XAMPP`_
--  `Code Igniter`_
+ * XAMPP
+ * Code Igniter
 
 ***************
 
